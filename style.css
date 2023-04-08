@@ -1,0 +1,22 @@
+/*
+Theme Name: Voar Bocan
+Theme URI: http://voarbocan.com
+Description: Child theme for my WordPress site
+Author: Ben Usher Smith
+Author URI: http://ushersmith.com/
+Template: twentytwentythree
+Version: 1.0
+*/
+
+/* Import the parent theme's stylesheet */
+@import url("../twentytwentythree/style.css");
+
+/* Add your own custom styles below this line */
+
+
+.wp-block-button a.wp-element-button,
+.wp-block-button a.wp-block-button__link,
+.wp-block-button a.wp-element-button:visited,
+.wp-block-button a.wp-block-button__link:visited {
+	border: none;
+}
